@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Student Website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>My Student Website</h1>
+        <p>Welcome to my website</p>
+    </header>
+
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#learning">Learning Plan</a>
+        <a href="#photos">Photos</a>
+        <a href="#media">Media</a>
+        <a href="#contact">Contact</a>
+
+        <a href="https://developer.mozilla.org/en-US/docs/Learn"
+           target="_blank">
+            Learn Web Development
+        </a>
+    </nav>
+
+
+    <main>
+
+        <!-- ABOUT ME -->
+
+        <section id="about" class="content-section">
+
+            <h2>About Me</h2>
+
+            <p>
+                My name is Mercy Witika. I am a second-year computer science
+                student. I am interested in computers and
+                technology and I enjoy learning new things. I am
+                currently learning programming, cybersecurity and
+                web development. I am still improving my skills and
+                I know that I need to practise regularly. My goal is
+                to become a good technology professional and use the
+                skills I learn to build useful things.
+            </p>
+
+        </section>
+
+
+        <!-- HOBBIES -->
+
+        <section id="hobbies" class="content-section">
+
+            <h2>My Hobbies</h2>
+
+            <ul>
+                <li>watching movies</li>
+                <li>Listening to music</li>
+                <li>Learning  dancing</li>
+            </ul>
+
+        </section>
+
+
+        <!-- LEARNING PLAN -->
+
+        <section id="learning" class="content-section">
+
+            <h2>My Learning Plan</h2>
+
+            <p>
+                These are some of the things I plan to do to improve
+                my web development skills.
+            </p>
+
+            <ol>
+                <li>Practise HTML regularly.</li>
+                <li>Learn more CSS and responsive design.</li>
+                <li>Learn JavaScript.</li>
+                <li>Build small websites for practice.</li>
+                <li>Learn how to use Git and GitHub.</li>
+            </ol>
+
+
+            <h3>My Weekly Web Learning Plan</h3>
+
+            <table>
+
+                <caption>
+                    Weekly Web Development Plan
+                </caption>
+
+                <thead>
+
+                    <tr>
+                        <th>Day</th>
+                        <th>Topic</th>
+                        <th>Practice Task</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Monday</td>
+                        <td>HTML</td>
+                        <td>Practise HTML tags and structure</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>CSS</td>
+                        <td>Practise CSS styling</td>
+                    </tr>
+
+                    <tr>
+                        <td>Friday</td>
+                        <td>JavaScript</td>
+                        <td>Practise JavaScript </td>
+                    </tr>
+
+                    <tr>
+                        <td>Saturday</td>
+                        <td>Project</td>
+                        <td>Work on ongoing website </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+
+        <!-- PHOTOS -->
+
+        <section id="photos" class="content-section">
+
+            <h2>My Photos</h2>
+
+            <p>
+                These are some photos related to studying,
+                technology and learning.
+            </p>
+
+            <div class="photo-gallery">
+
+                <figure>
+
+                    <img src="IMG-20260508-WA0085.jpg"
+                         alt="Students using a laptop">
+
+                    <figcaption>
+                        Students using a computer.
+                    </figcaption>
+
+                </figure>
+
+
+                <figure>
+
+                    <img src="IMG-20260809-WA0011.jpg"
+                         alt="Students reading books">
+
+                    <figcaption>
+                        Students studying and reading.
+                    </figcaption>
+
+                </figure>
+
+
+                <figure>
+
+                    <img src="IMG-20260905-WA0046(1).jpg"
+                         alt="Laptop showing programming code">
+
+                    <figcaption>
+                        A laptop displaying programming code.
+                    </figcaption>
+
+                </figure>
+
+            </div>
+
+        </section>
+
+
+        <!-- MEDIA -->
+
+        <section id="media" class="content-section">
+
+            <h2>My Media</h2>
+
+
+            <h3>My Introduction Video</h3>
+
+            <video controls>
+
+                <source src="lv_0_20260928235101.mp4">
+
+                Your browser does not support this video.
+
+            </video>
+
+            <p>
+                In this video, I introduce myself, talk about my
+                programme and mention one web development skill
+                that I would like to learn.
+            </p>
+
+
+            <h3>My Audio</h3>
+
+            <audio controls>
+
+                <source src="videos/voice.mp3" type="audio/mpeg">
+
+                Your browser does not support this audio.
+
+            </audio>
+
+            <p>
+                In this recording, I talk about one of my hobbies
+                and why I enjoy it.
+            </p>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section id="contact" class="content-section">
+
+            <h2>Contact Me</h2>
+
+            <p>
+                You can use the form below to leave a message.
+                This form is only a browser demonstration and
+                does not actually send any information.
+            </p>
+
+
+            <form action="#" method="post">
+
+
+                <div class="form-group">
+
+                    <label for="name">Name:</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">Email:</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="topic">Topic:</label>
+
+                    <select id="topic" name="topic">
+
+                        <option value="web">
+                            Web Development
+                        </option>
+
+                        <option value="programming">
+                            Programming
+                        </option>
+
+                        <option value="computer science">
+                            Cybersecurity
+                        </option>
+
+                        <option value="other">
+                            Other
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">Message:</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <button type="submit">
+                    Submit
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>My Student Website</p>
+
+        <p>ICT251 Web Technologies - Activity 2</p>
+
+    </footer>
+
+</body>
+
+</html>
